@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Data (large, not for git)
+Data/
+
+# Training artifacts & results (large)
+artifacts/
+results/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Logs
+*.log
+runs/
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
